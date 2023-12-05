@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #010101;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: fixed; /* Fijar la posición */
+  top: 0; /* Colocar en la parte superior */
+  left: 0; /* Colocar en el borde izquierdo */
+  width: 100%; /* Ocupar todo el ancho */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  z-index: 2; /* Asegurar que esté por encima de loader2 */
+}
+
+.loader2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: fixed; /* Fijar la posición */
+  top: 300px; /* Colocar a 100px desde la parte superior */
+  left: 0; /* Colocar en el borde izquierdo */
+  width: 100%; /* Ocupar todo el ancho */
+  /*background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+  z-index: 1; /* Z-index menor para que esté detrás de loader */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+html {
+  cursor: url("./too333.cur "), auto;
+}
